@@ -1,0 +1,19 @@
+ext {
+    android = [
+            compileSdkVersion: 26,
+            buildToolsVersion: "26.0.0",
+            minSdkVersion    : 22,
+            targetSdkVersion : 26,
+            versionCode      : 1,
+            versionName      : "1.0"
+    ]
+    dependencies = [
+            kotlinStdlib       : 'org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version',
+            butterknife        : 'com.jakewharton:butterknife:8.8.1',
+            butterknifeCompiler: 'com.jakewharton:butterknife-compiler:8.8.1',
+            glide              : 'com.github.bumptech.glide:glide:3.8.0',
+            ankoSdk15          : 'org.jetbrains.anko:anko-sdk15:0.9',
+            ankoSupportV4      : 'org.jetbrains.anko:anko-support-v4:0.9',
+            ankoAppcompatV7    : 'org.jetbrains.anko:anko-appcompat-v7:0.9'
+    ]
+}
